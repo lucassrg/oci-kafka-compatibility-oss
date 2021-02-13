@@ -458,14 +458,20 @@ curl -s localhost:8081/shipping/shipments/recent/5 | jq
 ]
 ```
 
-## Reference:
-https://github.com/recursivecodes/order-svc-kafka
-https://github.com/recursivecodes/shipping-svc-kafka
+## References:
+* https://recursive.codes/p/easy-messaging-with-micronauts-kafka-support-and-oracle-streaming-service
+* https://recursive.codes/p/message-driven-microservices-monoliths-with-micronaut-part-1:-installing-kafka-sending-your-first-message
+* https://recursive.codes/blog/post/1650
+* https://recursive.codes/blog/post/1648
+* https://github.com/lucassrg/shipping-svc-kafka
+* https://github.com/lucassrg/order-svc-kafka
+
+
 
 
 ## Troubleshooting
 
-In case you
+In case you have the following issue with gradle at the time you are compiling/building your project, you need to re-generate gradlew file using the command `gradle wrapper`.
 ```
 Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 Caused by: java.lang.ClassNotFoundException: org.gradle.wrapper.GradleWrapperMain
